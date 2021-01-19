@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #242424;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.container {
+	display: flex;
+
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	padding: 20px 0;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 10rem;
+}
+
+
+.container .card {
+	position: relative;
+	height: 450px;
+	/*! padding-top: 10rem; */
+}
+
+.content .card .user {
+	width: 380px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.5);
+}
+
+.content .card .user .profile {
+	position: absolute;
+	bottom: 0px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 90%);
+	width: 380px;
+	padding-left: 20px;
+	border-radius: 10px;
+}
+
+.content .card .user .name {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px 5px #444;
+}
+
+.content .card .user .name span {
+	font-size: 26px;
+}
+
+.content .card .local {
+	display: flex;
+	align-items: center;
+	padding: 0 0 20px 0;
+}
+
+.content .card .local i {
+	margin: 5px 0;
+	color: #fff;
+}
+
+.content .card .local span {
+	color: #fff;
+	padding: 0 10px;
+	text-shadow: 1px 1px 5px #444;
+}
+
+.content .buttons {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.content .buttons .no i {
+	color: #fd2e79;
+	font-size: 33px;
+
+}
+
+.content .buttons .star i {
+	color: #2bb1ff;
+	font-size: 22px;
+}
+
+.content .buttons .heart i {
+	color: #11e298;
+	font-size: 32px;
+}
+
+.content .buttons .no,
+.content .buttons .star,
+.content .buttons .heart {
+	background-color: #ffffff;
+	width: 70px;
+	height: 70px;
+	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 70px;
+	margin: 4px;
+	transition: 0.2s transform;
+}
+
+.content .buttons .no:hover,
+.content .buttons .star:hover,
+.content .buttons .heart:hover {
+	transform: scale(1.1);
+}
+
+.content .buttons .star {
+	width: 60px;
+	height: 60px;
+}
