@@ -1,7 +1,7 @@
 # Movinder
-<p align="center">
-    ![Screenshot](https://raw.githubusercontent.com/Araon/Movinder/main/movinder/static/images/Screenshot_2021-01-19%20Movinder.png)
-</p>
+
+![Screenshot](https://raw.githubusercontent.com/Araon/Movinder/main/movinder/static/images/Screenshot_2021-01-19%20Movinder.png)
+
 
 
 ## About <a name = "about"></a>
