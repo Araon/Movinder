@@ -14,7 +14,7 @@
 
 		
 
-		<title>Movinder</title>
+		<title>Movie-Please</title>
 	</head>
 	<body>
 
@@ -24,7 +24,8 @@
 					<div class="user">
 						<img class="user"  src="{{ movie_cover }}" alt="Face"/>
 						<div class="profile">
-							<div class="name">{{ movie_title }}</div><br>
+							<div class="name" name="mtitle">{{ movie_title }}</div>
+							<br>
 							<div class="local">
 								<i class="fas fa-theater-masks"></i>
 								<span>{{ movie_genre }}</span>
@@ -33,15 +34,16 @@
 					</div>
 				</div>
 
+				
 				<div class="buttons">
 					<div class="no">
 						<a href="/"><i class="fas fa-times"></i></a>
 					</div>
 					<div class="star">
-						<a href="{{ movie_url }}"><i class="fas fa-play fa"></i></a>
+						<a href="{{ movie_link }}"><i class="fas fa-play fa"></i></a>
 					</div>
 					<div class="heart">
-						<a href="/addtolist"><i class="fas fa-heart"></i></a> 
+						<a href="/addtolist"><i class="fas fa-heart"></i></a>
 					</div>
 				</div>
 			</div>
